@@ -10,4 +10,9 @@ public class Homecontroller {
 	public String Home() {
 		return "Applixcation running on server";
 	}
+	
+	@GetMapping("/test")
+	public String tesr() {
+		return "Applixcation running on Testing Mode";
+	}
 }
